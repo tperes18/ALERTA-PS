@@ -11,12 +11,8 @@ body {
 #gif {
     position: absolute;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.5;
     height: 20vw;
-}
-
-#caixa-aviso {
-    /* TODO: adicionar box shadow */
 }
 
 #aviso {
@@ -28,7 +24,7 @@ body {
 }
 
 #subtitulo {
-    margin-top: -3vw;
+    margin-top: -4vw;
     font-size: 2vw;
     font-weight: 200;
 }
