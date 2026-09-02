@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#gif {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    height: 20vw;
+}
+
+#caixa-aviso {
+    /* TODO: adicionar box shadow */
+}
+
+#aviso {
+    font-size: 6vw;
+}
+
+#vermelho {
+    color: red;
+}
+
+#subtitulo {
+    margin-top: -3vw;
+    font-size: 2vw;
+    font-weight: 200;
+}
