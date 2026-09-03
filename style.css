@@ -6,12 +6,26 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+
+    animation: COR-DE-ALARME 1s ease-out infinite
+}
+
+@keyframes COR-DE-ALARME {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: rgb(255, 171, 171);
+    }
+    100% {
+        background-color: white;
+    }
 }
 
 #gif {
     position: absolute;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.75;
     height: 20vw;
 }
 
@@ -20,7 +34,8 @@ body {
 }
 
 #vermelho {
-    color: red;
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 20px rgb(255, 255, 255);
 }
 
 #subtitulo {
