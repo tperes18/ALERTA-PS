@@ -43,3 +43,11 @@ body {
     font-size: 2vw;
     font-weight: 200;
 }
+
+.outra-pagina {
+    position: absolute;
+    top: 15px;
+    right: 18px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
