@@ -1,13 +1,7 @@
 const pagina = localStorage.getItem('pagina-selecionada');
 
-function redirecionar(caminhoPagina) {
-    const urlBase = window.location.origin;
-    const novaUrl = urlBase + caminhoPagina;
-    window.location.replace(novaUrl);
-}
-
 if (pagina === 'enem') {
-    redirecionar('/ALERTA-PS/alerta-enem.html');
+    window.location.replace("https://tperes18.github.io/ALERTA-PS/alerta-enem.html");
 }
 
 localStorage.setItem('pagina-selecionada', 'ps');
