@@ -7,7 +7,7 @@ function redirecionar(caminhoPagina) {
 }
 
 if (pagina === 'enem') {
-    redirecionar('/alerta-enem.html');
+    redirecionar('/ALERTA-PS/alerta-enem.html');
 }
 
 localStorage.setItem('pagina-selecionada', 'ps');
